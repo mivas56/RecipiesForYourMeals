@@ -1,0 +1,79 @@
+.singleContainer {
+  margin-top: 5vh;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  color: #202020;
+}
+.mealName {
+  padding: 10px 0px 10px 0px;
+  width: 100%;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.randomBtn {
+  background-color: #d62929;
+  border-radius: 30px;
+  padding: 1rem 3rem 1rem 3rem;
+  color: #ffffff;
+  border: none;
+  margin: 1rem 0 1rem 0;
+  font-size: large;
+  cursor: pointer;
+}
+
+.mealName h2 {
+  text-transform: uppercase;
+  text-align: center;
+  text-shadow: none;
+}
+.ingredients {
+  width: 80%;
+  text-align: left;
+  padding-bottom: 1rem;
+  border-bottom: rgba(0, 0, 0, 0.1) solid 1px;
+  border-top: rgba(0, 0, 0, 0.1) solid 1px;
+}
+ul {
+  list-style: none; /* Remove HTML bullets */
+  padding: 0;
+  margin: 0;
+}
+li::before {
+  padding-right: 8px;
+  content: "•";
+  color: #d62929;
+}
+.ingredients h3 {
+  margin: 1rem 0 1rem 0;
+}
+.ingredients li {
+  margin-top: 5px;
+}
+.mealImg {
+  max-width: 70%;
+  border-radius: 10px;
+  margin: 0 0 1rem 0;
+}
+.instructions {
+  width: 80%;
+  text-align: left;
+}
+.instructions h3 {
+  margin: 1rem 0 1rem 0;
+}
+.instructions li {
+  margin-top: 5px;
+}
+
+@media (max-width: 500px) {
+  .mealName {
+    color: black;
+    font-size: 10px;
+  }
+}

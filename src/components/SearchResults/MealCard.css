@@ -1,0 +1,32 @@
+.mealCard {
+  margin: 20px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 16px;
+  max-width: 350px;
+  cursor: pointer;
+  overflow: hidden;
+  background-color: #ffffff;
+  transition: 0.2s ease-in-out;
+}
+.mealCard:hover {
+  transform: scale(1.02);
+}
+.mealName h2 {
+  margin: 0;
+}
+
+.mealCard img {
+  width: 100%;
+  object-fit: contain;
+  align-items: flex-end;
+}
+.mealCard .info {
+  color: black;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin: 0;
+  padding: 10px;
+  text-align: center;
+  max-height: 80px;
+}

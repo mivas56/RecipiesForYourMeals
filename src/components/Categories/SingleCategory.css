@@ -1,0 +1,39 @@
+.categoryCard {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  height: 300px;
+  width: 200px;
+  padding: 1.5rem;
+  border-radius: 16px;
+  background: #ffffff;
+  box-shadow: -5px 0 5px rgba(0, 0, 0, 0.075);
+  transition: 0.5s;
+  cursor: pointer;
+}
+.categoryCard:hover {
+  transform: translateY(-1rem);
+}
+.categoryCard:hover ~ .categoryCard {
+  transform: translateX(100px);
+}
+.categoryCard:not(:first-child) {
+  margin-left: -100px;
+}
+
+.categoryCard:hover h3 {
+  background: linear-gradient(360deg, #ff6a6a, #660814);
+  text-shadow: none;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.categoryImg {
+  border-radius: 10px;
+  margin: 5px;
+  max-width: 170px;
+}
+.categoryDescription {
+  margin-top: 20px;
+  font-weight: 550;
+}

@@ -1,0 +1,44 @@
+.countries__container {
+  margin-top: 5vh;
+  display: flex;
+  flex-direction: column;
+}
+.countries__container h4 {
+  margin-left: 2vw;
+  color: #d62929bb;
+}
+.countries__container h2 {
+  margin-left: 2vw;
+  color: #202020;
+}
+.country__card {
+  margin: 1vh 0 1vh 2vw;
+  background: #fff;
+  font-weight: 500;
+  box-shadow: -5px 0 5px rgba(0, 0, 0, 0.075);
+  border-radius: 10px;
+  padding: 2vh 3vw;
+  transition: transform 0.1s ease-in-out;
+}
+.country__card:hover {
+  color: #d62929;
+  font-weight: 500;
+  transform: scale(1.01);
+}
+.countries__list {
+  margin-top: 1vh;
+  display: flex;
+  padding: 1rem;
+  overflow-x: scroll;
+}
+
+.countries__list::-webkit-scrollbar {
+  height: 10px;
+  background-color: rgb(235, 235, 235);
+  border-radius: 10px;
+}
+
+.countries__list::-webkit-scrollbar-thumb {
+  background: #d6292994;
+  border-radius: 10px;
+}
